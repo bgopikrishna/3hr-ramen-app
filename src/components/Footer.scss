@@ -1,0 +1,23 @@
+.footer {
+  display: block;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 12px;
+  position: fixed;
+  margin-top: 20px;
+  bottom: 0;
+  z-index: 1;
+  background: black;
+
+  a {
+    text-decoration: underline;
+    color: inherit;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    display: none;
+  }
+}

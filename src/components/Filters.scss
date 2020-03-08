@@ -1,0 +1,15 @@
+.filter {
+    display: flex;
+    max-width: 80%;
+    justify-content: space-around;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+
+    input, label, select {
+        padding: 10px;
+    }
+
+    &__item {
+        margin: 1rem;
+    }
+}
