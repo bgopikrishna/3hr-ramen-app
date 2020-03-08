@@ -15,6 +15,7 @@ const Filters = ({
           type='search'
           name='search'
           placeholder='Search Restaurant by Name, Ramen Variety and Style '
+          title='Search Restaurant by Name, Ramen Variety and Style '
           onChange={e => onSearchChange(e.target.value)}
           value={searchInputValue}
         />

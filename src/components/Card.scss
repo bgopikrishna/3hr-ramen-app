@@ -24,5 +24,9 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    border-bottom: 1px solid;
+    padding-bottom: 0.4rem;
+    margin: 0.5rem auto !important;
+    color: dodgerblue;
   }
 }

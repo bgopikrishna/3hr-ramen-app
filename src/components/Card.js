@@ -30,7 +30,8 @@ const Card = ({ restaurant }) => {
         <div className='card__content_item'>
           <p>
             <strong>Rating: </strong>
-            {restaurant['Stars'] !== 'NaN' ? `⭐  ${restaurant['Stars'] / 5}` : '-'}
+            {restaurant['Stars'] !== 'NaN' ? `${restaurant['Stars'] / 5} ⭐` : '-'}
+            
           </p>
         </div>
         <div className='card__content_item'>
